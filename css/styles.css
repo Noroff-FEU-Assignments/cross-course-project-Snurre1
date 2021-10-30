@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif ;
+    src: url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap) format('woff2');
+}
+
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+/*
+main { 
+    background: black;
+}
+*/
+
+header {
+    background:#ffdc71;
+ }
+
+ .logo{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;       
+ }
+.navlinks {
+ list-style-type: none;
+  
+}
+.leftside, .middle, .rightside{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+.product-img{
+    width: 20%;
+    height: 20%;
+}
+.product-imggame{
+    width: 30%;
+}
+.product-imgover{
+    width: 25%;
+}
+
+.navlink {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    float: left;
+    
+  }
+  
+footer {
+      bottom: auto;
+    background:#ffdc71;
+  }
