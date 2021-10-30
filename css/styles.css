@@ -12,15 +12,19 @@
 body {
     display: flex;
     flex-direction: column;
+
 }
-/*
+
 main { 
     background: black;
+    margin: 0;
+    padding: 0;
 }
-*/
+
 
 header {
     background:#ffdc71;
+
  }
 
  .logo{
@@ -29,35 +33,47 @@ header {
      margin-right: auto;
      width: 50%;       
  }
-.navlinks {
+a, .navlinks {
  list-style-type: none;
   
 }
-.leftside, .middle, .rightside{
+
+section{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
 }
 
-
+h1 , h2{
+    font-family:'Press Start 2p', Arial, Helvetica, sans-serif ;
+    color:#ffdc71 ;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.row{ display: flex;
+}
+.column{
+    flex:100%;
+    padding: 5px;
+}
 .product-img{
-    width: 20%;
-    height: 20%;
+    width: 100px;
 }
-.product-imggame{
-    width: 30%;
-}
-.product-imgover{
-    width: 25%;
+.product-imggame , .product-imgover {
+    width: 250px;
+    
 }
 
-.navlink {
+
+a, .nav__link , .navlinkbottom {
     display: block;
     color: black;
     text-align: center;
     padding: 12px 14px;
+    margin-left: 100px;
     text-decoration: none;
-    float: left;
-    
+    float:left;
+    font-size: 20px;
   }
   
 footer {
