@@ -104,6 +104,7 @@ footer {
       text-align: center;
       background:#ffdc71;
   } 
+
   
   @media only screen and (max-width:950px ){
    .startlink{
@@ -129,4 +130,10 @@ footer {
         font-size: 15px;
     }
 
+}
+@media screen and (max-width:520px){
+    .row{
+        display: grid;
+        justify-content: center;
+    }   
 }
