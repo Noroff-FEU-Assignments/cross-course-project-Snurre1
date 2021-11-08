@@ -27,7 +27,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;       
+    width: 35%;     
  }
 
  li{
@@ -62,12 +62,12 @@ h1 , h2 , p{
     padding: 20px;
     margin: 20px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     
 }
 
 p{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .row{ 
@@ -127,7 +127,7 @@ footer {
   @media only screen and (max-width:760px) {
    
     h1, h2{
-    font-size:20px;
+    font-size: 30px;
     }
     p{
     font-size: 15px;

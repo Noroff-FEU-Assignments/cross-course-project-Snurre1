@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="The universe of games"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Contact page for Gamehub</title>
+    <title>Login page for Gamehub</title>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
     <link href="css/styles.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -28,15 +28,19 @@
 </header>
 <main>
     <h1>
-        Contact
+    Login
     </h1>
-    <p>Check our community for answers, or leave a comment below and we will contact you as soon as possible.</p>
+    <form>
     <form action="#" method="POST">
-    <label for="name"><p>Username</p></label>
-    <input type="text" id="username">
-    <label for="message"><p>Your message</p></label>
-    <textarea id="message" name="message" rows="8" cols="35"></textarea>
-    <input type="submit" value="Send">
+    <label for="Username"><p>Username</p></label>
+    <input type="text" id="Username">
+    <label for="password"><p>Password</p></label>
+    <input type="password" id="password">
+    <input type="submit" value="Submit">
+    <p>Forgot password? Type in E-mail below</p>
+    <label for=email><p>E-mail</p></label>
+    <input type="email" id="email">
+    <input type="submit" value="Submit">
     </form>
 
 </main>
@@ -45,7 +49,7 @@
     <ul class="nav_links">
     <li><a class="nav__link" href="index.html">Account</a></li>
     <li><a class="nav__link" href="index.html">Community</a></li>
-    <li><a class="nav__link" href="index.html">Contact</a></li>
+    <li><a class="nav__link" href="contact.html">Contact</a></li>
     </ul>
     </nav>
     </footer>
