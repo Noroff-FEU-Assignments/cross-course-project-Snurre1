@@ -12,13 +12,13 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+   
 
 }
 
 main { 
     background: black;
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -31,8 +31,16 @@ header {
      display: block;
      margin-left: auto;
      margin-right: auto;
-     width: 50%;       
+     width: 35%;       
  }
+
+ li{
+      display: inline-block;
+    }
+
+ ul{ 
+     text-align: center;
+    }   
 a, .navlinks {
  list-style-type: none;
   
@@ -41,6 +49,8 @@ a, .navlinks {
 section{
     display: grid;
     grid-template-rows: auto auto;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 h1 , h2 , p{
@@ -60,16 +70,9 @@ p{
 
 .row{ display: flex;
 }
-.column{
-    flex:100%;
-    padding: 5px;
-}
-.product-img{
+
+.product-imggame , .product-imgover, .product-img {
     width: 100%;
-    
-}
-.product-imggame , .product-imgover {
-    width: 250px;
     
 }
 
@@ -80,16 +83,9 @@ a, .nav__link , .navlinkbottom {
     text-align: center;
     padding: 12px 14px;
     text-decoration: none;
-    float:left;
     font-size: 20px;
   }
  
-  .startlink{ 
-margin-left: 20%;
-  }
-  .navlinkbottom{
-      margin-left: 20%;
-  }
   i{
      float: right;
      margin-right: 30px;
@@ -107,19 +103,11 @@ footer {
 
   
   @media only screen and (max-width:950px ){
-   .startlink{
-       margin-left: 10%;
-   }
-   .navlinkbottom{
-       margin-left: 15%;
-   }
 
   }
 
   @media only screen and (max-width:760px) {
-    .startlink , .navlinkbottom{
-        margin-left: 0%;
-    }
+   
     body{
         display: grid;
     }
