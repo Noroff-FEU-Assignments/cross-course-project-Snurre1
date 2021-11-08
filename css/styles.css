@@ -9,12 +9,12 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
-   
-
 }
+
 
 main { 
     background: black;
+    min-height: calc(100vh - 40px);
 }
 
 
@@ -105,14 +105,19 @@ a, .nav__link {
   }
   
 footer {
-      bottom: 0;
+    bottom: 0;
     background:#ffdc71;
   }
   .copyright{
-      display: block;
-      text-align: center;
-      background:#ffdc71;
+    display: block;
+    text-align: center;
+    background:#ffdc71;
   } 
+  /* Contact page*/
+  form{
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
   
   @media only screen and (max-width:950px ){
@@ -121,14 +126,11 @@ footer {
 
   @media only screen and (max-width:760px) {
    
-    body{
-        display: grid;
-    }
     h1, h2{
-        font-size:20px;
+    font-size:20px;
     }
     p{
-        font-size: 15px;
+    font-size: 15px;
     }
 
 }
