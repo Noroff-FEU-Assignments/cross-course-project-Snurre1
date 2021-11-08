@@ -41,6 +41,12 @@ a, .navlinks {
     list-style-type: none;
   
 }
+.nav__link{
+    border: 1px solid red;
+}
+.nav__link:hover{
+    background: red;
+}
 
 section{
     display: grid;
@@ -70,7 +76,7 @@ p{
 
 }
 .images{
-    border: 1px solid green;
+    border: 1px solid red;
     margin: 10px;
 }
 .images:hover{
@@ -92,10 +98,10 @@ a, .nav__link {
     text-decoration: none;
     font-size: 20px;
   }
- 
+  
   i{
-     float: right;
-     margin-right: 30px;
+    float: right;
+    margin-right: 30px;
   }
   
 footer {
