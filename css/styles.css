@@ -20,21 +20,20 @@ main {
 
 header {
     background:#ffdc71;
+}
 
- }
-
- .logo{
+.logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 35%;     
- }
+}
 
- li{
+li{
     display: inline-block;
     }
 
- ul{ 
+ul{ 
     text-align: center;
     }   
 a, .navlinks {
@@ -45,6 +44,9 @@ a, .navlinks {
     border: 1px solid red;
 }
 .nav__link:hover{
+    background: red;
+}
+.active{
     background: red;
 }
 
@@ -62,8 +64,7 @@ h1 , h2 , p{
     padding: 20px;
     margin: 20px;
     text-align: center;
-    font-size: 40px;
-    
+    font-size: 40px;    
 }
 
 p{
@@ -73,22 +74,21 @@ p{
 .row{ 
     display: flex;
     gap: 10px;
-
 }
+
 .images{
     border: 1px solid red;
     margin: 10px;
 }
+
 .images:hover{
     background:red;
 }
-
 
 .product-imggame , .product-imgover, .product-img {
     width: 100%;
     
 }
-
 
 a, .nav__link {
     display: block;
@@ -122,20 +122,29 @@ footer {
     text-align: center;
     margin-bottom: 20px;
   }
+  /* Community Page */
+  
+  .communitylink{
+    border: 1px solid red;
+  }
+  .communitylink:hover{
+      background: red;
+  }
 
   
   @media only screen and (max-width:950px ){
 
   }
 
-  @media only screen and (max-width:760px) {
+  @media only screen and (min-width:760px) {
    
-    h1, h2{
-    font-size: 30px;
+    .communitylinks{
+        display: flex;
     }
-    p{
-    font-size: 15px;
+    .communitylink{
+        flex: auto;
     }
+
 
 }
 @media screen and (max-width:520px){
