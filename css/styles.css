@@ -99,11 +99,17 @@ a, .nav__link {
     font-size: 20px;
   }
   
-  i{
+  .shoppingicon{
     float: right;
     margin-right: 30px;
   }
+  .search_container{
+    text-align: center;
+  }
   
+  .fas fa-search{ 
+      color: red;
+  }
 footer {
     bottom: 0;
     background:#ffdc71;
