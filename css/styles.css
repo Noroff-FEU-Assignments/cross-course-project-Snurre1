@@ -87,7 +87,6 @@ p{
 
 .product-imggame , .product-imgover, .product-img {
     width: 100%;
-    
 }
 
 a, .nav__link {
@@ -97,65 +96,80 @@ a, .nav__link {
     padding: 12px 14px;
     text-decoration: none;
     font-size: 20px;
-  }
+}
   
-  .shoppingicon{
+.shoppingicon{
     float: right;
     margin-right: 30px;
-  }
-  .search_container{
+}
+
+.search_container{
     text-align: center;
-  }
+}
   
-  .fas fa-search{ 
-      color: red;
-  }
 footer {
     bottom: 0;
     background:#ffdc71;
-  }
-  .copyright{
+}
+
+.copyright{
     display: block;
     text-align: center;
     background:#ffdc71;
-  } 
+} 
   /* Contact page, Login page, Account page*/
-  fieldset{
+fieldset{
     border: black;
-  }
+}
   
-  form{
+form{
     text-align: center;
     margin-bottom: 20px;
-  }
+}
   /* Community Page */
   
-  .communitylink{
+.communitylink{
     border: 1px solid red;
-  }
-  .communitylink:hover{
+}
+
+.communitylink:hover{
       background: red;
-  }
+}
 
+/* New Games*/
+.product-list{
+    display: flex;
+    flex-direction: column;
+}
+.product-card{
+    flex: auto auto;
+    width: 100%;
+    border: 1px solid red;
+    margin: 10px;
+}
+img{ 
+ width: 40%;
+}
   
-  @media only screen and (max-width:950px ){
+@media only screen and (max-width:950px ){
 
-  }
+}
 
-  @media only screen and (min-width:760px) {
+@media only screen and (min-width:760px) {
    
-    .communitylinks{
-        display: flex;
-    }
-    .communitylink{
-        flex: auto;
-    }
+.communitylinks{
+    display: flex;
+}
+
+.communitylink{
+    flex: auto;
+}
 
 
 }
 @media screen and (max-width:520px){
-    .row{
-        display: grid;
-        justify-content: center;
-    }   
+.row{
+    display: grid;
+    justify-content: center;
+}   
 }
