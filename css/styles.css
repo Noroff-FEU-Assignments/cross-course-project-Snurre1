@@ -8,7 +8,6 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -66,9 +65,13 @@ h1 , h2 , p{
     text-align: center;
     font-size: 40px;    
 }
+h2{ 
+    font-size: 20px;
+}
 
-p{
+p, a{
     font-size: 16px;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .row{ 
@@ -81,7 +84,7 @@ p{
     margin: 10px;
 }
 
-.images:hover{
+a:hover{
     background:red;
 }
 
@@ -137,18 +140,31 @@ form{
 }
 
 /* New Games*/
+
+
 .product-list{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+        
 .product-card{
-    flex: auto auto;
+    flex: 1 1;
     width: 100%;
     border: 1px solid red;
     margin: 10px;
+    text-align: center;
+    max-width: 500px;
 }
+
 img{ 
  width: 40%;
+}
+.product-carded{
+    border: 0;
+}
+.cartbutton{
+    padding:5px;
 }
   
 @media only screen and (max-width:950px ){
