@@ -219,16 +219,7 @@ img{
     .dropdown:hover .dropbutton {
         background-color: #ffdc71;
     }
-    
-   
-.communitylinks{
-    display: flex;
-}
-
-.communitylink{
-    flex: auto;
-}
-
+       
 .logo{
     width: 40%;
 }
