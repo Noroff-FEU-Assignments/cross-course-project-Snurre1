@@ -64,7 +64,7 @@ h1 , h2 , p{
     padding: 20px;
     margin: 20px;
     text-align: center;
-    font-size: 40px;    
+    font-size: 25px;    
 }
 h2{ 
     font-size: 20px;
@@ -163,10 +163,23 @@ img{
 .product-carded{
     border: 0;
 }
-.cartbutton{
+.cartbutton, .submitbtn{
     padding:5px;
 }
-  
+/* Checkoutpage */
+.checkingout {
+    text-align: center;
+    margin: 0px;
+}
+
+.checkout-text{
+    margin: 5px;
+}
+
+.submitbtn{
+    margin: 16px;
+}
+
 @media only screen and (max-width:950px ){
 
 }
