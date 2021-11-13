@@ -28,6 +28,10 @@ header {
     width: 35%;     
 }
 
+.logo:hover{
+    opacity: 0.8;
+}
+
 
 li{
     display: inline-block;
@@ -43,9 +47,10 @@ a, .navlinks {
 .nav__link{
     border: 1px solid red;
 }
-.nav__link:hover{
+.images:hover, .card:hover, .nav__link:hover{
     background: red;
 }
+
 .active{
     background: red;
 }
@@ -85,14 +90,11 @@ p, a{
     margin: 10px;
 }
 
-a:hover{
-    background:red;
-}
 .product-imggame , .product-imgover, .product-img {
     width: 100%;
 }
 
-a, .nav__link {
+.nav__link {
     display: block;
     color: black;
     text-align: center;
@@ -165,11 +167,11 @@ img{
 }
 .cartbutton, .submitbtn{
     padding:5px;
+    margin: 15px;
 }
 /* Checkoutpage */
 .checkingout {
     text-align: center;
-    margin: 0px;
 }
 
 .checkout-text{
