@@ -1,0 +1,189 @@
+
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+main { 
+    background: black;
+    min-height: calc(100vh - 40px);
+}
+
+
+header {
+    background:#ffdc71;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;     
+}
+
+.logo:hover{
+    opacity: 0.8;
+}
+
+
+li{
+    display: inline-block;
+    }
+
+ul{ 
+    text-align: center;
+    }   
+a, .navlinks {
+    list-style-type: none;
+  
+}
+.nav__link{
+    border: 1px solid red;
+}
+.images:hover, .card:hover, .nav__link:hover{
+    background: red;
+}
+
+.active{
+    background: red;
+}
+
+section{
+    display: grid;
+    grid-template-rows: auto auto;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 , h2 , p{
+    display: block;
+    font-family:'Press Start 2p', Arial, Helvetica, sans-serif ;
+    color:#ffdc71 ;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;    
+}
+h2{ 
+    font-size: 20px;
+}
+
+p, a{
+    font-size: 16px;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row{ 
+    display: flex;
+    gap: 10px;
+}
+
+.images{
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.product-imggame , .product-imgover, .product-img {
+    width: 100%;
+}
+
+.nav__link {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 20px;
+    margin:8px 0px 0px 0px;
+}
+  
+.shoppingicon{
+    float: right;
+    margin-right: 30px;
+}
+
+.search_container{
+    text-align: center;
+}
+  
+footer {
+    bottom: 0;
+    background:#ffdc71;
+}
+
+.copyright{
+    display: block;
+    text-align: center;
+    background:#ffdc71;
+} 
+  /* Contact page, Login page, Account page*/
+fieldset{
+    border: black;
+}
+  
+form{
+    text-align: center;
+    margin-bottom: 20px;
+}
+  /* Community Page */
+  
+.communitylink{
+    border: 1px solid red;
+}
+
+.communitylink:hover{
+      background: red;
+}
+
+/* New Games*/
+
+
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+        
+.product-card{
+    flex: 1 1;
+    width: 100%;
+    border: 1px solid red;
+    margin: 10px;
+    text-align: center;
+    max-width: 500px;
+}
+
+img{ 
+ width: 40%;
+}
+.product-carded{
+    border: 0;
+}
+.cartbutton, .submitbtn, .returnbtn{
+    padding:5px;
+    margin: 15px;
+}
+/* Checkoutpage */
+.checkingout {
+    text-align: center;
+}
+
+.checkout-text{
+    margin: 5px;
+}
+
+.submitbtn{
+    margin: 16px;
+}
+/* Success */
+
+.returncontainer{
+    text-align: center;
+}
