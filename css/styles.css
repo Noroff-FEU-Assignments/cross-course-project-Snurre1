@@ -74,6 +74,9 @@ h1 , h2 , p{
 h2{ 
     font-size: 20px;
 }
+h2{ 
+    font-size: 20px;
+}
 
 p, a{
     font-size: 16px;
@@ -90,6 +93,13 @@ p, a{
     margin: 10px;
 }
 
+<<<<<<< Updated upstream
+=======
+a:hover{
+    background:red;
+}
+
+>>>>>>> Stashed changes
 .product-imggame , .product-imgover, .product-img {
     width: 100%;
 }
@@ -165,6 +175,16 @@ img{
 }
 .product-carded{
     border: 0;
+<<<<<<< Updated upstream
+=======
+}
+.cartbutton{
+    padding:5px;
+}
+  
+@media only screen and (max-width:950px ){
+
+>>>>>>> Stashed changes
 }
 .cartbutton, .submitbtn, .returnbtn{
     padding:5px;
