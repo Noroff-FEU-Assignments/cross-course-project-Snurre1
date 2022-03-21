@@ -18,20 +18,24 @@ main {
 
 
 header {
-    background:#ffdc71;
+    background:#3fa535db;
 }
 
 .logo{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;     
+    margin: 20px auto auto auto;
+    width: 190px;
+    
 }
 
 .logo:hover{
     opacity: 0.8;
 }
 
+.navandiconplacement{
+    display: flex;
+    justify-content: space-between;
+}
 
 li{
     display: inline-block;
