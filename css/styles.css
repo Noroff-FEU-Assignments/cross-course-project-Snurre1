@@ -21,7 +21,7 @@ header {
 .logo {
   display: block;
   margin: 20px auto auto auto;
-  width: 190px;
+  max-width: 350px;
 }
 
 .logo:hover {

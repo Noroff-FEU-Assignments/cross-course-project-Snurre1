@@ -33,15 +33,11 @@
     background-color: darkgreen;
   }
 
-  .logo {
-    width: 40%;
-  }
-
   .nav__link {
     margin: 0px;
     display: block;
   }
-  .nav_links {
+  .linkplacement {
     display: block;
   }
 }
