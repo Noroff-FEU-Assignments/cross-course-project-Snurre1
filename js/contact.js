@@ -3,7 +3,7 @@ const fname = document.querySelector("#fname");
 const lname = document.querySelector("#lname");
 const email = document.querySelector("#email");
 const message = document.querySelector("#message");
-const fnameError = document.querySelector("fnameError");
+const fnameError = document.querySelector("#fnameError");
 const lnameError = document.querySelector("#lnameError");
 const emailError = document.querySelector("#emailError");
 const textError = document.querySelector("#textError");
@@ -45,7 +45,7 @@ function validateForm(event) {
 form.addEventListener("submit", validateForm);
 
 function checkLength(value, len) {
-  if (value.trim().length > len) {
+  if (value.trim().length >= len) {
     return true;
   } else {
     return false;

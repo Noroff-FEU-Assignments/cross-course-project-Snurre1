@@ -156,7 +156,17 @@ label {
   display: none;
   color: red;
 }
+.success {
+  color: darkgreen;
+}
 
+.contactbtn {
+  padding: 8px 12px;
+  border: 3px ridge white;
+}
+.contactbtn:hover {
+  opacity: 0.7;
+}
 /* Community Page */
 .communitylinks {
   display: grid;
