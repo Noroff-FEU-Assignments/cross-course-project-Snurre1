@@ -82,12 +82,10 @@ p {
 h2 {
   font-size: 20px;
 }
-h2 {
-  font-size: 20px;
-}
 
 p,
-a {
+a,
+form {
   font-size: 16px;
   font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -139,9 +137,26 @@ fieldset {
 }
 
 form {
-  text-align: center;
-  margin-bottom: 20px;
+  margin: auto auto;
+  width: fit-content;
+  color: white;
+  text-align: right;
 }
+
+fieldset > div {
+  margin: 20px;
+}
+
+label {
+  display: inline;
+  text-align: right;
+}
+.form-error,
+.success {
+  display: none;
+  color: red;
+}
+
 /* Community Page */
 .communitylinks {
   display: grid;
