@@ -160,12 +160,22 @@ label {
   color: darkgreen;
 }
 
-.contactbtn {
+.contactbtn,
+.gamessellbtn,
+.cartbutton,
+.submitbtn,
+.returnbtn {
   padding: 8px 12px;
   border: 3px ridge white;
+  background: #3fa535db;
 }
-.contactbtn:hover {
-  opacity: 0.7;
+.contactbtn:hover,
+.gamessellbtn:hover,
+.cartbutton:hover,
+.submitbtn:hover,
+.returnbtn:hover {
+  color: darkgreen;
+  cursor: pointer;
 }
 /* Community Page */
 .communitylinks {
@@ -185,7 +195,7 @@ label {
   background: darkgreen;
 }
 
-/* New Games*/
+/* New Games , Sell games*/
 
 .product-list {
   display: flex;
@@ -208,12 +218,6 @@ img {
 .product-carded {
   border: 0;
 }
-.cartbutton,
-.submitbtn,
-.returnbtn {
-  padding: 5px;
-  margin: 15px;
-}
 
 /* cart-page*/
 .cartdiv {
@@ -224,8 +228,19 @@ img {
   width: 150px;
 }
 
-.totalprice {
-  text-align: center;
+.totalprice,
+.checkoutbtn {
+  display: block;
+  color: white;
+  font-size: 30px;
+  margin: 15px;
+}
+.checkoutbtn {
+  text-align: right;
+}
+
+.checkoutbtn > button {
+  padding: 8px;
 }
 
 /* Checkoutpage */

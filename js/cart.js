@@ -15,21 +15,28 @@ for (let i = 0; i < removeCartItemButtons.length; i++) {
   button.addEventListener("click", function (event) {
     const buttonClicked = event.target;
     buttonClicked.parentElement.remove();
-    updateCartTotal();
   });
 }
-let sumTotal = 0;
+let sum = [];
 function updateCartTotal() {
   const cartItemContainer = document.getElementsByClassName("cartdivs")[0];
   const cartRows = cartItemContainer.getElementsByClassName("cartdiv");
+  console.log(cartRows);
   for (let i = 0; i < cartRows.length; i++) {
     let cartRow = cartRows[i];
-    const price = cartRow.getElementsByClassName("itemprice");
-    const totalPrice = price[0].innerHTML;
-
-    let total = parseFloat(totalPrice.replace("Price:", ""));
-
-    sumTotal = total * cartRows.length;
-    console.log(sumTotal);
+    console.log(cartRow);
+    const price = cartRow.getElementsByClassName("itemprice")[0];
+    console.log(price);
+    const totalPrice = price.innerHTML;
+    console.log(totalPrice);
+    const total = parseFloat(totalPrice.replace("Price:", ""));
+    sum.push(total);
+    let sumTotal = sum.reduce(function (total, item) {
+      return total + item;
+    }, 0);
+    const showPrice = document.querySelector(".totalprice");
+    showPrice.innerHTML += sumTotal + "€";
   }
 }
+
+updateCartTotal();

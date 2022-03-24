@@ -23,7 +23,7 @@ for (let i = 0; i < addToCart.length; i++) {
         const localItems = JSON.parse(localStorage.getItem("items"));
         localItems.map((data) => {
           if (item.id === data.id) {
-            item.no = data.no + 1;
+            item.no = item.no + 1;
           } else {
             items.push(data);
           }
