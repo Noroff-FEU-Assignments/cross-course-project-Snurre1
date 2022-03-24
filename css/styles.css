@@ -77,10 +77,10 @@ p {
   padding: 20px;
   margin: 20px;
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
 }
 h2 {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 p,
@@ -214,6 +214,20 @@ img {
   padding: 5px;
   margin: 15px;
 }
+
+/* cart-page*/
+.cartdiv {
+  display: block;
+  text-align: center;
+}
+.cartimg {
+  width: 150px;
+}
+
+.totalprice {
+  text-align: center;
+}
+
 /* Checkoutpage */
 .checkingout {
   text-align: center;
