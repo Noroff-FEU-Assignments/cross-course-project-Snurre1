@@ -1,7 +1,7 @@
 let removeCartItemButtons = document.getElementsByClassName("btn-danger");
 const container = document.querySelector(".cartdivs");
 const data = JSON.parse(localStorage.items);
-
+console.log(data)
 for (let i = 0; i < data.length; i++) {
   container.innerHTML += `<div class="cartdiv">
                              <h2>${data[i].name}</h2>
