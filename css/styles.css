@@ -22,6 +22,7 @@ header {
   display: block;
   margin: 20px auto auto auto;
   max-width: 350px;
+  width: 40%;
 }
 
 .logo:hover {
@@ -70,6 +71,7 @@ section {
 
 h1,
 h2,
+h3,
 p {
   display: block;
   font-family: "Press Start 2p", Arial, Helvetica, sans-serif;
@@ -83,6 +85,11 @@ h2 {
   font-size: 25px;
 }
 
+h3{
+  font-size: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+}
 p,
 a,
 form {
@@ -160,6 +167,7 @@ label {
   color: darkgreen;
 }
 
+.productbtn,
 .contactbtn,
 .gamessellbtn,
 .cartbutton,
@@ -171,7 +179,9 @@ label {
   padding: 8px 12px;
   border: 3px ridge white;
   background: #3fa535db;
+  color: white;
 }
+.productbtn:hover,
 .contactbtn:hover,
 .gamessellbtn:hover,
 .cartbutton:hover,
@@ -210,7 +220,7 @@ label {
 }
 
 .product-card {
-  flex: 1 1;
+  flex: 33%;
   width: 100%;
   border: 3px ridge white;
   margin: 10px;
@@ -219,11 +229,17 @@ label {
 }
 
 img {
-  width: 40%;
+  width: 50%;
 }
 .product-carded {
   border: 0;
 }
+
+.productbtndiv{
+  position: relative;
+  margin:20px;
+}
+
 
 /* cart-page*/
 .cartdiv {
