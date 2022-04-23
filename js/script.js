@@ -8,7 +8,6 @@ async function getdata(){
         contain.innerHTML = "";
 
         for (let i =0; i< result.length; i++){
-            console.log(result[i])
 
             contain.innerHTML += `<div class= product-card>
                                    <a href=details.html?id=${result[i].id}>
@@ -26,11 +25,5 @@ async function getdata(){
     
     
     }catch(error){}
-
-
 }
-
-
-
-
 getdata()
