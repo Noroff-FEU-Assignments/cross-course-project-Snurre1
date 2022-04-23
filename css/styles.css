@@ -67,6 +67,7 @@ section {
   grid-template-rows: auto auto;
   max-width: 1000px;
   margin: 0 auto;
+  text-align: center;
 }
 
 h1,
